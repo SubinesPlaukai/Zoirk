@@ -84,7 +84,7 @@ public class CoveredHole extends Module {
     private String currentWorld = "";
 
     public CoveredHole() {
-        super(GlazedAddon.esp, "covered-hole", "Detects covered holes from HoleTunnelStairsESP with performance optimization.");
+        super(GlazedAddon.esp, "CoveredHole", "Detects covered holes from HoleTunnelStairsESP with performance optimization. Can select which things to search like 3x3, etc.");
     }
 
     @Override
