@@ -164,7 +164,7 @@ public class BeehiveESP extends Module {
     private ExecutorService threadPool;
 
     public BeehiveESP() {
-        super(GlazedAddon.esp, "BeehiveESP", "ESP for beehives and bee nests when full of honey with threading and tracer support.");
+        super(GlazedAddon.esp, "BeehiveBaseIndicator", "The Name is pretty obvious but it detects diffrent levels of the beehives and if they are full or not!");
     }
 
     @Override
