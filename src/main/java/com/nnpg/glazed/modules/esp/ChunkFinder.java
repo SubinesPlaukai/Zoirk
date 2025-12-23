@@ -297,7 +297,7 @@ public class ChunkFinder extends Module {
     private long lastCleanup = 0;
 
     public ChunkFinder() {
-        super(GlazedAddon.esp, "ChunkFinder", "ChunkFinderV4");
+        super(GlazedAddon.esp, "ChunkFinder", "Finds Suspicious blocks in the chunk. Settable min -Y for the blocks search.");
     }
 
     @Override
